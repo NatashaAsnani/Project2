@@ -1,0 +1,278 @@
+.container{
+    background-color: rgb(193, 192, 192);
+}
+.signup{
+    /* text-align: center; */
+    transform: rotate(90deg);
+    float: left;
+    width: fit-content;
+    position: fixed;
+    left: 0;
+    top: 150px;
+    z-index: 100;
+    margin-top: 150px;
+    font-size: 90px;
+    letter-spacing: 4px;
+    /* margin-right: 400px; */
+}
+.design{
+    margin-left: 300px;
+    margin-top: 110px;
+}
+.facebook{
+    padding: 8px;
+}
+.email{
+    background-color:  rgb(193, 192, 192);
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.password{
+    background-color:  rgb(193, 192, 192);
+    width: 350px;
+    height: 40px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.check{
+    margin-left: 20px;
+    font-size: smaller;
+    font-family: Arial Narrow;
+}
+.checking{
+    margin-left: 6px;
+}
+.account{
+    margin-left: 20px;
+}
+.logo{
+    margin-left: 5px;
+}
+.up{
+    margin-left: 80px;
+}
+.or{
+    margin-left: 90px;
+}
+.already{
+    margin-left: 50px;
+}
+/* Large screens (desktops) */
+@media (max-width: 1200px) {
+    .signup {
+        font-size: 70px;
+        top: 100px;
+    }
+
+    .design {
+        margin-left: 200px;
+    }
+
+    .email, .password, .facebook, .google {
+        width: 80%;
+        margin-left: 10%;
+    }
+
+    .check {
+        margin-left: 10%;
+    }
+
+    .account {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .logo {
+        left: auto;
+        top: auto;
+        position: static;
+        margin: auto;
+    }
+
+    .girl img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+@media (max-width: 1020px) {
+    .signup {
+        font-size: 50px;
+        top: 100px;
+    }
+
+    .design {
+        margin: 0 auto;
+        padding: 20px;
+        width: 76%;
+    }
+
+    .email, .password, .facebook, .google {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .check {
+        margin-left: 5%;
+    }
+
+    .account {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .logo {
+        left: auto;
+        top: auto;
+        position: static;
+        margin: 20px auto;
+        margin-top: 140px;
+        margin-left: 150px;
+    }
+    .up{
+        margin-right: 250px;
+    }
+
+    .girl img {
+        width: 100%;
+        height: auto;
+    }
+
+    .already{
+        margin-right: 280px;
+    }
+}
+
+/* Medium screens (tablets and small laptops) */
+@media (max-width: 992px) {
+    .signup {
+        position: static;
+        transform: rotate(0deg);
+        text-align: center;
+        font-size: 50px;
+        margin: 20px 0;
+    }
+
+    .design {
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .email, .password, .facebook, .google {
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .check {
+        margin-left: 5%;
+    }
+
+    .account {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .logo {
+        position: static;
+        margin: 30px auto;
+        margin-top: 130px;
+    }
+
+    .girl img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Small screens (smartphones) */
+@media (max-width: 768px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .signup {
+        position: static;
+        transform: rotate(0deg);
+        text-align: center;
+        font-size: 40px;
+        margin: 20px 0;
+    }
+
+    .design {
+        margin: 0 auto;
+        padding: 20px;
+        width: 100%;
+    }
+
+    .email, .password, .facebook, .google {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .check {
+        margin-left: 5%;
+    }
+
+    .account {
+        text-align: center;
+        margin: 20px auto;
+    }
+
+    .logo {
+        display: none;
+        /* width: 60px;
+        margin: 20px auto; */
+    }
+
+    .girl img {
+        width: 100%;
+        height: auto;
+    }
+}
+
+/* Extra small screens (small smartphones) */
+@media (max-width: 576px) {
+    .signup {
+        font-size: 30px;
+    }
+
+    h6 {
+        font-size: 16px;
+    }
+
+    .btn {
+        padding: 8px;
+    }
+
+    .email, .password, .facebook, .google {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .check {
+        margin-left: 5%;
+    }
+
+    .account {
+        text-align: center;
+        margin: 10px auto;
+    }
+
+    .logo {
+        /* width: 60px;
+        margin: 10px auto; */
+        display: none;
+    }
+
+    .girl img {
+        width: 100%;
+        height: auto;
+    }
+}
+
